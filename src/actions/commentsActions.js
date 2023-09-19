@@ -25,7 +25,7 @@ export const fetchComments = () => {
 
     try {
       // Axios is common, but also `fetch`, or your own "API service" layer
-      const res = await axios.get('https://pepnhos-server-portf.onrender.com/comments')
+      const res = await axios.get('https://my-peppe-s-portfolio-newserver.onrender.com')
       dispatch(fetchCommentsSucceeded(res.data))
     } catch (error) {
       dispatch(fetchCommentsFailed(error))

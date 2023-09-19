@@ -45,7 +45,7 @@ const Blogs2 = (props) => {
        <h6 className='comment-title'>Nickname</h6>
        <input value={author} onChange={(e)=>setAuthor(e.target.value)} />
        <h6 className='comment-title'>Your comment</h6>
-       <input value={text} className='input-form' onChange={(e)=>setText(e.target.value)} /> 
+       <textarea value={text} className='input-form' onChange={(e)=>setText(e.target.value)} /> 
        <input id='submit-btn' type='submit' value="Send" />
        </form>
    </Row>

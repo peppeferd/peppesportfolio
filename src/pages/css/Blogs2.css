@@ -1,9 +1,10 @@
 .input-form {
     margin-right: 100px;
-    margin-bottom: 20px;
+    padding-bottom: 100px;
     display:inline;
     width: 60%;
     height: 40%;
+    resize: none;
 }
 .comment-title{
     margin-top: 20px;
@@ -12,5 +13,5 @@
 #submit-btn{
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      width: 130px;
-     margin-bottom: 300px;
+     margin-bottom: 200px;
 }

@@ -1,0 +1,29 @@
+.home-content{
+    color: #EEE8AA;
+    font-size: 130%;
+  }
+
+  
+  .home-title{
+    color: #008B45;
+  
+  }
+  #home{
+    background-image: url('../../assets/home-bg.jpg');
+  
+  }
+  #home2{
+    background-image: url('../../assets/home-bg.jpg');
+
+  }
+
+  .home-container{
+    min-height: 100vh;
+  }
+
+  .home-social-icons{
+    background-color: #EEE8AA;
+  }
+  .icon-colour{
+    font-size: 250%;
+  }

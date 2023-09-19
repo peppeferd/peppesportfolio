@@ -1,0 +1,10 @@
+#commenti {
+    height: auto;
+ 
+    display: flex;
+    flex-flow: wrap;
+}
+
+#nick {
+    color: green;
+}

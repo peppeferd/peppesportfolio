@@ -13,7 +13,7 @@ const Blogs2 = (props) => {
  
 
     const client = axios.create({
-        baseURL: "https://pepnhos-server-portf.onrender.com/comments" 
+        baseURL: "https://my-peppe-s-portfolio-newserver.onrender.com" 
       });
   
  
